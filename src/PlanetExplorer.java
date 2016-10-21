@@ -9,16 +9,16 @@ public class PlanetExplorer {
 	private String obstacles;
 	private int actualx;
 	private int actualy;
-	private String way;
+	private String direction;
 
 	// getters and setters
 	
 	
-	public String getWay() {
-		return way;
+	public String getdirection() {
+		return direction;
 	}
-	public void setWay(String way) {
-		this.way = way;
+	public void setdirection(String direction) {
+		this.direction = direction;
 	}
 	public int getActualx() {
 		return actualx;
@@ -63,7 +63,7 @@ public class PlanetExplorer {
 		this.obstacles=obstacles;
 		actualx=0;
 		actualy=0;
-		way="N";
+		direction="N";
 		
 	}
 	public PlanetExplorer(int x, int y){
@@ -71,7 +71,7 @@ public class PlanetExplorer {
 		this.y=y;
 		actualx=0;
 		actualy=0;
-		way="N";
+		direction="N";
 		
 	}
 	
@@ -89,46 +89,46 @@ public class PlanetExplorer {
 		
 		// turning
 		if(command=="r"){
-			if(way=="N"){
-				way="E";
-			}else if(way=="E"){
-				way="S";
-			}else if(way=="S"){
-				way="W";
-			}else if(way=="W"){
-				way="N";
+			if(direction=="N"){
+				direction="E";
+			}else if(direction=="E"){
+				direction="S";
+			}else if(direction=="S"){
+				direction="W";
+			}else if(direction=="W"){
+				direction="N";
 			}
 		}else if(command=="l"){
-			if(way=="N"){
-				way="W";
-			}else if(way=="W"){
-				way="S";
-			}else if(way=="S"){
-				way="E";
-			}else if(way=="E"){
-				way="N";
+			if(direction=="N"){
+				direction="W";
+			}else if(direction=="W"){
+				direction="S";
+			}else if(direction=="S"){
+				direction="E";
+			}else if(direction=="E"){
+				direction="N";
 			}
 		}
 		// moving
 		
 		if(command=="f"){
-			if(way=="N"){
+			if(direction=="N"){
 				actualy++;
-			}else if(way=="E"){
+			}else if(direction=="E"){
 				actualx++;
-			}else if(way=="S"){
+			}else if(direction=="S"){
 				actualy--;
-			}else if(way=="W"){
+			}else if(direction=="W"){
 				actualx--;
 			}
 		}else if(command=="b"){
-			if(way=="N"){
+			if(direction=="N"){
 				actualy--;
-			}else if(way=="E"){
+			}else if(direction=="E"){
 				actualx--;
-			}else if(way=="S"){
+			}else if(direction=="S"){
 				actualy++;
-			}else if(way=="W"){
+			}else if(direction=="W"){
 				actualx++;
 			}
 		}

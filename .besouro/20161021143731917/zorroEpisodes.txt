@@ -3,7 +3,8 @@
 1477051645127 test-last 1 960 false
 1477051677293 regression 1 32 false
 1477052097132 test-last 1 419 false
-1477052138522 test-addition 1 41 false
-1477052313925 production 1 175 false
-1477052321824 regression 1 7 false
-1477052321975 regression 1 0 false
+1477052138522 test-addition 1 41 true
+1477052313925 production 1 175 true
+1477052321824 regression 1 7 true
+1477052321975 regression 1 0 true
+1477052511377 test-first 4 189 true
