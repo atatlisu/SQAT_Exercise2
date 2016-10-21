@@ -9,3 +9,4 @@ RefactoringAction 1477050352949 PlanetExplorer.java ADD String executeCommand(St
 RefactoringAction 1477050459101 PlanetExplorer.java ADD vo System FIELD
 RefactoringAction 1477050463624 PlanetExplorer.java RENAME System=>void asd FIELD
 EditAction 1477050481318 PlanetExplorer.java 1377 3 4 0
+EditAction 1477050522426 TestPlanetExplorer.java 230 1 2 0
