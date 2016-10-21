@@ -156,9 +156,24 @@ public class PlanetExplorer {
 						actualx++;
 					}
 				}
+				// wrapping
+				if(actualx<0){
+					actualx=99;
+				} else if(actualx>100){
+					actualx=1;
+				}
+				
+				if(actualy<0){
+					actualy=99;
+				}else if(actualy>100){
+					actualy=1;
+				}
+			
 				command = command.substring(1);
 			
 		}
+		
+		
 		return "(" + actualx + "," + actualy + "," + direction + ")";
 	}
 
