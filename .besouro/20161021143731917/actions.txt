@@ -249,3 +249,6 @@ RefactoringAction 1477056594554 TestPlanetExplorer.java RENAME test_obstacles()/
 RefactoringAction 1477056596057 TestPlanetExplorer.java RENAME test_singleobstacles()=>void test_singleObstacles() METHOD
 RefactoringAction 1477056599561 TestPlanetExplorer.java RENAME test_singleObstacles()=>void test_singleObstacle() METHOD
 EditAction 1477056642769 TestPlanetExplorer.java 1730 9 21 9
+UnitTestCaseAction 1477056644271 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477056644271 TestPlanetExplorer.java FAIL
+EditAction 1477056703469 PlanetExplorer.java 4606 16 29 0
