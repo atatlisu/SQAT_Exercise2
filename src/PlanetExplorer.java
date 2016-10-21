@@ -165,8 +165,10 @@ public class PlanetExplorer {
 				}
 				// obstacles
 				
-				for(int i=0 ; i<obstaclesList.size()-1 ; i++){
+				for(int i=0 ; i<obstaclesList.size()-3 ; i++){
+					//while(obstaclesList.)
 					if(obstaclesList.get(i).equals(positionx) && obstaclesList.get(i+1).equals(positiony)){
+						
 						return "(" + positionx + "," + positiony + "," + direction + ")" + "(" + obstaclesList.get(i) +
 								"," + obstaclesList.get(i+1) + ")";
 					}
