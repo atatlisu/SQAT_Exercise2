@@ -47,13 +47,13 @@ public class TestPlanetExplorer {
 	}
 	@Test
 	public void test_obstacles() {
-		PlanetExplorer explorer = new PlanetExplorer(100,100,"(50,50)(90,90)");
+		PlanetExplorer explorer = new PlanetExplorer(100,100,"(60,90)(50,60)");
 		assertTrue(explorer.executeCommand("b").equals("(0,99,N)"));		
 	}
 	@Test
 	public void test_singleObstacle() {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(2,2)");
-		System.out.println(explorer.executeCommand("ffrfff"));		
+		assertTrue(explorer.executeCommand("ffrfff").equals("(1,2,E)(2,2)"));		
 	}
 	
 	
