@@ -35,7 +35,6 @@ public class TestPlanetExplorer {
 		explorer.setActualy(6);
 		explorer.setdirection("N");
 		explorer.executeCommand("f");
-	
 		assertTrue(explorer.getActualx()==7 && explorer.getActualy()==7 && explorer.getdirection().equals("N"));	
 	}
 	@Test
