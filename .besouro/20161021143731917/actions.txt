@@ -259,3 +259,10 @@ UnitTestCaseAction 1477056771077 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1477056771078 TestPlanetExplorer.java FAIL
 RefactoringAction 1477056878465 PlanetExplorer.java ADD import java.util.ArrayList IMPORT
 EditAction 1477056976992 PlanetExplorer.java 4629 16 29 0
+CompilationAction 1477056977215 PlanetExplorer.java
+CompilationAction 1477056977215 PlanetExplorer.java
+CompilationAction 1477057079344 PlanetExplorer.java
+CompilationAction 1477057079344 PlanetExplorer.java
+UnitTestCaseAction 1477057080831 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477057080831 TestPlanetExplorer.java FAIL
+EditAction 1477057101030 PlanetExplorer.java 4631 16 29 0

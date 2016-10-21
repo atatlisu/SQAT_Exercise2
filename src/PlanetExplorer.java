@@ -165,10 +165,10 @@ public class PlanetExplorer {
 				}
 				// obstacles
 				
-				for(int i=0 ; i<obstaclesList.size()-1 ; i++){
-					if(positionx==obstaclesList.get(i) && positiony==obstaclesList.get(i+1)){
-						return "(" + positionx + "," + positiony + "," + direction + ")" + "(" + obstaclesList.elementAt(i) +
-								"," + obstaclesList.elementAt(i+1) + ")";
+				for(int i=0 ; i<obstaclesList.size()-2 ; i++){
+					if(obstaclesList.get(i).equals(positionx) && obstaclesList.get(i+1).equals(positiony)){
+						return "(" + positionx + "," + positiony + "," + direction + ")" + "(" + obstaclesList.get(i) +
+								"," + obstaclesList.get(i+1) + ")";
 					}
 				}
 				
