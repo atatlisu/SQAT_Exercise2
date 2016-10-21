@@ -216,3 +216,10 @@ EditAction 1477055031141 TestPlanetExplorer.java 1362 7 17 7
 CompilationAction 1477055031359 TestPlanetExplorer.java
 CompilationAction 1477055031359 TestPlanetExplorer.java
 EditAction 1477055051774 PlanetExplorer.java 3968 16 28 0
+UnitTestCaseAction 1477055052072 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477055052074 TestPlanetExplorer.java OK
+RefactoringAction 1477055098831 TestPlanetExplorer.java ADD void test_Wrapping()/2 METHOD
+RefactoringAction 1477055101334 TestPlanetExplorer.java RENAME test_Wrapping()/2=>void test_() METHOD
+RefactoringAction 1477055102336 TestPlanetExplorer.java RENAME test_()=>void test_o() METHOD
+RefactoringAction 1477055107839 TestPlanetExplorer.java RENAME test_o()=>void test_obstacles() METHOD
+EditAction 1477055158276 PlanetExplorer.java 3966 16 28 0

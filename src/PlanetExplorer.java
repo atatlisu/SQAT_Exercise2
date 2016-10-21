@@ -158,14 +158,14 @@ public class PlanetExplorer {
 				}
 				// wrapping
 				if(positionx<0){
-					positionx=99;
-				} else if(positionx>100){
+					positionx=x-1;
+				} else if(positionx>x){
 					positionx=1;
 				}
 				
 				if(positiony<0){
-					positiony=99;
-				}else if(positiony>100){
+					positiony=y-1;
+				}else if(positiony>y){
 					positiony=1;
 				}
 			
