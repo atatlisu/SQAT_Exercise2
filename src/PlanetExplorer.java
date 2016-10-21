@@ -2,8 +2,8 @@ import java.util.ArrayList;
 import java.util.Vector;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
-// ID:
-// Finish time:
+// ID:160
+// Finish time:16.50
 
 public class PlanetExplorer {
 	private int x;
@@ -196,7 +196,7 @@ public class PlanetExplorer {
 				command = command.substring(1);
 			
 		}
-		System.out.println("(" + positionx + "," + positiony + "," + direction + ")");
+	//	System.out.println("(" + positionx + "," + positiony + "," + direction + ")");
 		return "(" + positionx + "," + positiony + "," + direction + ")";
 	}
 
