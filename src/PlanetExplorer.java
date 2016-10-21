@@ -108,8 +108,9 @@ public class PlanetExplorer {
 		 */
 
 		// turning
+		
 		while (!command.isEmpty()) {
-			
+		
                 char ch= command.charAt(0);
 				if (ch=='r') {
 					if (direction == "N") {
