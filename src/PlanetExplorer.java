@@ -155,7 +155,7 @@ public class PlanetExplorer {
 						actualx++;
 					}
 				}
-				command = command.substring(1);
+				//command = command.substring(1);
 			}
 		}
 		return null;
