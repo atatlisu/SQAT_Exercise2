@@ -3,7 +3,7 @@ import java.util.Vector;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID:160
-// Finish time:16.50
+// Finish time:16.55
 
 public class PlanetExplorer {
 	private int x;
