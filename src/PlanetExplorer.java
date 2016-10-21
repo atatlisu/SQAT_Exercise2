@@ -88,7 +88,7 @@ public class PlanetExplorer {
 			
 		}
 		
-		System.out.println(obstaclesList);
+		System.out.println(obstacles.substring(1,obstacles.indexOf(","));
 	}
 
 	public PlanetExplorer(int x, int y) {
