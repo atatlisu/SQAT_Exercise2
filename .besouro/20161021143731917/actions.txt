@@ -210,3 +210,6 @@ RefactoringAction 1477054989270 PlanetExplorer.java ADD void setpositionx(int) M
 RefactoringAction 1477054989270 PlanetExplorer.java ADD int getpositiony() METHOD
 RefactoringAction 1477054989270 PlanetExplorer.java ADD void setpositiony(int) METHOD
 EditAction 1477055002205 TestPlanetExplorer.java 1362 7 17 7
+CompilationAction 1477055002413 TestPlanetExplorer.java
+CompilationAction 1477055002413 TestPlanetExplorer.java
+EditAction 1477055031141 TestPlanetExplorer.java 1362 7 17 7
