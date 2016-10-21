@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Vector;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
@@ -12,7 +13,7 @@ public class PlanetExplorer {
 	private int positiony;
 	private String direction;
 	
-	Vector<Integer> obstaclesList = new Vector<Integer>(100);
+	ArrayList obstaclesList = new ArrayList();
 	
 
 	public String getdirection() {
@@ -164,8 +165,8 @@ public class PlanetExplorer {
 				}
 				// obstacles
 				
-				for(int i=0 ; i<2 ; i++){
-					if(positionx==obstaclesList.elementAt(i)&&positiony==obstaclesList.elementAt(i+1)){
+				for(int i=0 ; i<obstaclesList.size()-1 ; i++){
+					if(positionx==obstaclesList.get(i) && positiony==obstaclesList.get(i+1)){
 						return "(" + positionx + "," + positiony + "," + direction + ")" + "(" + obstaclesList.elementAt(i) +
 								"," + obstaclesList.elementAt(i+1) + ")";
 					}
