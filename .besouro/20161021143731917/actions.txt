@@ -244,3 +244,8 @@ RefactoringAction 1477055540451 PlanetExplorer.java ADD Vector<String> obstacles
 RefactoringAction 1477055542457 PlanetExplorer.java REMOVE obstaclesList/2 FIELD
 EditAction 1477056282325 PlanetExplorer.java 4320 16 29 0
 EditAction 1477056578109 PlanetExplorer.java 4606 16 29 0
+RefactoringAction 1477056587051 TestPlanetExplorer.java ADD void test_obstacles()/2 METHOD
+RefactoringAction 1477056594554 TestPlanetExplorer.java RENAME test_obstacles()/2=>void test_singleobstacles() METHOD
+RefactoringAction 1477056596057 TestPlanetExplorer.java RENAME test_singleobstacles()=>void test_singleObstacles() METHOD
+RefactoringAction 1477056599561 TestPlanetExplorer.java RENAME test_singleObstacles()=>void test_singleObstacle() METHOD
+EditAction 1477056642769 TestPlanetExplorer.java 1730 9 21 9

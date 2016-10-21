@@ -50,6 +50,11 @@ public class TestPlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(1,1)(4,5)");
 		assertTrue(explorer.executeCommand("b").equals("(0,99,N)"));		
 	}
+	@Test
+	public void test_singleObstacle() {
+		PlanetExplorer explorer = new PlanetExplorer(100,100,"(2,2)");
+		assertTrue(explorer.executeCommand("ffrfff").equals("(1,2,E)(2,2)"));		
+	}
 	
 	
 	
