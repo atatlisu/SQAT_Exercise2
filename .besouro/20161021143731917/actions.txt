@@ -99,3 +99,7 @@ EditAction 1477051644069 TestPlanetExplorer.java 507 3 4 2
 UnitTestCaseAction 1477051645127 TestPlanetExplorer.java OK
 UnitTestSessionAction 1477051645127 TestPlanetExplorer.java OK
 EditAction 1477051675997 TestPlanetExplorer.java 516 3 4 2
+UnitTestCaseAction 1477051677293 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477051677293 TestPlanetExplorer.java OK
+RefactoringAction 1477051689481 TestPlanetExplorer.java RENAME test_Landing()=>void test_FirstLanding() METHOD
+EditAction 1477051980506 PlanetExplorer.java 2624 16 26 0
