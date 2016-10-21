@@ -88,7 +88,7 @@ public class PlanetExplorer {
 			
 		}
 		
-		System.out.println(obstaclesList);
+		// System.out.println(obstaclesList);
 	}
 
 	public PlanetExplorer(int x, int y) {
@@ -170,7 +170,8 @@ public class PlanetExplorer {
 				for(int i=0 ; i<obstaclesList.size()-2 ; i++){
 					//while(obstaclesList.)
 					if(obstaclesList.get(i).equals(positionx) && obstaclesList.get(i+1).equals(positiony)){
-					
+						System.out.println("(" + positionx + "," + positiony + "," + direction + ")" + "(" + obstaclesList.get(i) +
+								"," + obstaclesList.get(i+1) + ")");
 						return "(" + positionx + "," + positiony + "," + direction + ")" + "(" + obstaclesList.get(i) +
 								"," + obstaclesList.get(i+1) + ")";
 					}
