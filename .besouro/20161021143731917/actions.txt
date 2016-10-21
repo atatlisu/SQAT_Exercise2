@@ -80,3 +80,6 @@ RefactoringAction 1477051452314 PlanetExplorer.java ADD void setY(int) METHOD
 RefactoringAction 1477051452314 PlanetExplorer.java ADD String getObstacles() METHOD
 RefactoringAction 1477051452314 PlanetExplorer.java ADD void setObstacles(String) METHOD
 EditAction 1477051471857 TestPlanetExplorer.java 318 2 2 1
+CompilationAction 1477051472062 TestPlanetExplorer.java
+CompilationAction 1477051472063 TestPlanetExplorer.java
+EditAction 1477051489708 PlanetExplorer.java 2288 16 25 0
