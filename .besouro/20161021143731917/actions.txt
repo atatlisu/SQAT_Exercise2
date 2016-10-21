@@ -184,3 +184,4 @@ UnitTestSessionAction 1477054153258 TestPlanetExplorer.java OK
 RefactoringAction 1477054192087 TestPlanetExplorer.java ADD void test_executeCommand_combined()/2 METHOD
 RefactoringAction 1477054198591 TestPlanetExplorer.java RENAME test_executeCommand_combined()/2=>void test_Wrapping() METHOD
 EditAction 1477054288642 TestPlanetExplorer.java 1594 7 21 7
+EditAction 1477054314331 TestPlanetExplorer.java 1499 7 21 7

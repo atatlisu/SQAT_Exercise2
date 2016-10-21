@@ -35,14 +35,13 @@ public class TestPlanetExplorer {
 		explorer.setActualy(6);
 		explorer.setdirection("N");
 		explorer.executeCommand("f");
-		assertTrue(explorer.getActualx()==7 && explorer.getActualy()==7 && explorer.getdirection().equals("N"));	
+		assertTrue(explorer.executeCommand("b").equals("(7,7,N)"));
 	}
 	@Test
 	public void test_executeCommand_combined() {
 		PlanetExplorer explorer = new PlanetExplorer(90,100);
 		explorer.executeCommand("ffrff");
-		
-		assertTrue(explorer.getActualx()==2 && explorer.getActualy()==2 && explorer.getdirection().equals("E"));	
+		assertTrue(explorer.executeCommand("b").equals("(2,2,E)"));
 	}@Test
 	public void test_Wrapping() {
 		PlanetExplorer explorer = new PlanetExplorer(100,100);
