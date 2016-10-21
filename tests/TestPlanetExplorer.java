@@ -14,5 +14,10 @@ public class TestPlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(90,100);
 		assertTrue(explorer.getX()==90 && explorer.getY()==100);
 	}
+	@Test
+	public void test_Landing(){
+		PlanetExplorer explorer = new PlanetExplorer(90,100);
+		assertTrue(explorer.getActualx()==0 && explorer.getActualy()==0 && explorer.getWay()=="N");
+	}
 	
 }

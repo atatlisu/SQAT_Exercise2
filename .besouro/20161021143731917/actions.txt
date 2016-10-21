@@ -83,3 +83,16 @@ EditAction 1477051471857 TestPlanetExplorer.java 318 2 2 1
 CompilationAction 1477051472062 TestPlanetExplorer.java
 CompilationAction 1477051472063 TestPlanetExplorer.java
 EditAction 1477051489708 PlanetExplorer.java 2288 16 25 0
+RefactoringAction 1477051512253 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1477051516265 TestPlanetExplorer.java RENAME test=>void test_ FIELD
+RefactoringAction 1477051518270 TestPlanetExplorer.java RENAME test_=>void test_Landin FIELD
+RefactoringAction 1477051520772 TestPlanetExplorer.java RENAME test_Landin=>void test_Landing FIELD
+RefactoringAction 1477051522777 TestPlanetExplorer.java RENAME test_Landing=>void test_Landing() METHOD
+RefactoringAction 1477051576367 PlanetExplorer.java RENAME actualx=>int actualX FIELD
+RefactoringAction 1477051579881 PlanetExplorer.java RENAME actualy=>int actualY FIELD
+RefactoringAction 1477051583398 PlanetExplorer.java RENAME getActualx()=>int getActualX() METHOD
+RefactoringAction 1477051589403 PlanetExplorer.java ADD int actualy FIELD
+RefactoringAction 1477051589403 PlanetExplorer.java ADD int getActualx() METHOD
+RefactoringAction 1477051590908 PlanetExplorer.java RENAME actualX=>int actual FIELD
+RefactoringAction 1477051591915 PlanetExplorer.java RENAME actual=>int actualx FIELD
+EditAction 1477051644069 TestPlanetExplorer.java 507 3 4 2
