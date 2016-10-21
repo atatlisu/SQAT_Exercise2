@@ -38,11 +38,19 @@ public class TestPlanetExplorer {
 	public void test_executeCommand_combined() {
 		PlanetExplorer explorer = new PlanetExplorer(90,100);
 		assertTrue(explorer.executeCommand("ffrff").equals("(2,2,E)"));
-	}@Test
+
+	}
+	@Test
 	public void test_Wrapping() {
 		PlanetExplorer explorer = new PlanetExplorer(100,100);
 		assertTrue(explorer.executeCommand("b").equals("(0,99,N)"));		
 	}
+	@Test
+	public void test_obstacles() {
+		PlanetExplorer explorer = new PlanetExplorer(100,100);
+		assertTrue(explorer.executeCommand("b").equals("(0,99,N)"));		
+	}
+	
 	
 	
 	

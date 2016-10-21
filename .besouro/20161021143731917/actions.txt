@@ -223,3 +223,4 @@ RefactoringAction 1477055101334 TestPlanetExplorer.java RENAME test_Wrapping()/2
 RefactoringAction 1477055102336 TestPlanetExplorer.java RENAME test_()=>void test_o() METHOD
 RefactoringAction 1477055107839 TestPlanetExplorer.java RENAME test_o()=>void test_obstacles() METHOD
 EditAction 1477055158276 PlanetExplorer.java 3966 16 28 0
+EditAction 1477055161877 TestPlanetExplorer.java 1531 8 19 8
