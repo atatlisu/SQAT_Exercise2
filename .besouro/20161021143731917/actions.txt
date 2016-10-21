@@ -104,3 +104,10 @@ UnitTestSessionAction 1477051677293 TestPlanetExplorer.java OK
 RefactoringAction 1477051689481 TestPlanetExplorer.java RENAME test_Landing()=>void test_FirstLanding() METHOD
 EditAction 1477051980506 PlanetExplorer.java 2624 16 26 0
 EditAction 1477052095578 TestPlanetExplorer.java 645 3 7 3
+UnitTestCaseAction 1477052097132 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477052097132 TestPlanetExplorer.java OK
+RefactoringAction 1477052111594 TestPlanetExplorer.java REMOVE test_executeCommand() METHOD
+RefactoringAction 1477052112598 TestPlanetExplorer.java ADD void test_executeCommand() METHOD
+RefactoringAction 1477052121111 TestPlanetExplorer.java ADD void test_executeCommand()/2 METHOD
+RefactoringAction 1477052123621 TestPlanetExplorer.java RENAME test_executeCommand()/2=>void test_executeCommand2() METHOD
+EditAction 1477052136878 TestPlanetExplorer.java 822 4 10 4
