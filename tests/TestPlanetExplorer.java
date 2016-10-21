@@ -37,6 +37,13 @@ public class TestPlanetExplorer {
 		explorer.executeCommand("f");
 		assertTrue(explorer.getActualx()==7 && explorer.getActualy()==7 && explorer.getdirection().equals("N"));	
 	}
+	@Test
+	public void test_executeCommand_combined() {
+		PlanetExplorer explorer = new PlanetExplorer(90,100);
+		explorer.executeCommand("ffrff");
+		assertTrue(explorer.getActualx()==2 && explorer.getActualy()==2 && explorer.getdirection().equals("E"));	
+	}
+	
 	
 	
 	

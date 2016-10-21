@@ -134,3 +134,15 @@ EditAction 1477052567978 PlanetExplorer.java 3210 16 27 0
 CompilationAction 1477052568211 TestPlanetExplorer.java
 CompilationAction 1477052568211 TestPlanetExplorer.java
 EditAction 1477052569305 TestPlanetExplorer.java 1166 5 16 5
+UnitTestCaseAction 1477052571678 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477052571678 TestPlanetExplorer.java OK
+RefactoringAction 1477052605640 TestPlanetExplorer.java ADD void test_executeCommand3()/2 METHOD
+RefactoringAction 1477052610152 TestPlanetExplorer.java RENAME test_executeCommand3()/2=>void test_executeCommand()/2 METHOD
+RefactoringAction 1477052613163 TestPlanetExplorer.java RENAME test_executeCommand()/2=>void test_() METHOD
+RefactoringAction 1477052621680 TestPlanetExplorer.java RENAME test_()=>void test_executeCommand3()/2 METHOD
+RefactoringAction 1477052625203 TestPlanetExplorer.java RENAME test_()=>void test_executeCommand3()/2 METHOD
+RefactoringAction 1477052627217 TestPlanetExplorer.java RENAME test_executeCommand3()/2=>void test_executeCommand()/2 METHOD
+RefactoringAction 1477052628728 TestPlanetExplorer.java RENAME test_executeCommand()/2=>void test_executeCommand_() METHOD
+RefactoringAction 1477052633741 TestPlanetExplorer.java RENAME test_executeCommand_()=>void test_executeCommand_combinde() METHOD
+RefactoringAction 1477052634757 TestPlanetExplorer.java RENAME test_executeCommand_combinde()=>void test_executeCommand_combined() METHOD
+EditAction 1477052667190 TestPlanetExplorer.java 1424 6 19 6
