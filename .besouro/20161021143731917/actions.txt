@@ -131,3 +131,6 @@ RefactoringAction 1477052562132 PlanetExplorer.java ADD String direction FIELD
 RefactoringAction 1477052562133 PlanetExplorer.java ADD String getdirection() METHOD
 RefactoringAction 1477052562134 PlanetExplorer.java ADD void setdirection(String) METHOD
 EditAction 1477052567978 PlanetExplorer.java 3210 16 27 0
+CompilationAction 1477052568211 TestPlanetExplorer.java
+CompilationAction 1477052568211 TestPlanetExplorer.java
+EditAction 1477052569305 TestPlanetExplorer.java 1166 5 16 5

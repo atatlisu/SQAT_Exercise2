@@ -14,28 +14,28 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_FirstLanding(){
 		PlanetExplorer explorer = new PlanetExplorer(90,100);
-		assertTrue(explorer.getActualx()==0 && explorer.getActualy()==0 && explorer.getWay().equals("N"));	
+		assertTrue(explorer.getActualx()==0 && explorer.getActualy()==0 && explorer.getdirection().equals("N"));	
 	}
 	@Test
 	public void test_executeCommand() {
 		PlanetExplorer explorer = new PlanetExplorer(90,100);
 		explorer.executeCommand("l");
-		assertTrue(explorer.getWay()=="W");
+		assertTrue(explorer.getdirection()=="W");
 	}
 	@Test
 	public void test_executeCommand2() {
 		PlanetExplorer explorer = new PlanetExplorer(90,100);
 		explorer.executeCommand("r");
-		assertTrue(explorer.getWay()=="E");
+		assertTrue(explorer.getdirection()=="E");
 	}
 	@Test
 	public void test_executeCommand3() {
 		PlanetExplorer explorer = new PlanetExplorer(90,100);
 		explorer.setActualx(7);
 		explorer.setActualy(6);
-		explorer.setWay("N");
+		explorer.setdirection("N");
 		explorer.executeCommand("f");
-		assertTrue(explorer.getActualx()==7 && explorer.getActualy()==7 && explorer.getWay().equals("N"));	
+		assertTrue(explorer.getActualx()==7 && explorer.getActualy()==7 && explorer.getdirection().equals("N"));	
 	}
 	
 	
