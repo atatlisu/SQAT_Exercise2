@@ -71,3 +71,12 @@ RefactoringAction 1477051377740 PlanetExplorer.java ADD String way FIELD
 RefactoringAction 1477051388749 PlanetExplorer.java ADD String getWay() METHOD
 RefactoringAction 1477051388749 PlanetExplorer.java ADD void setWay(String) METHOD
 EditAction 1477051425939 PlanetExplorer.java 1975 10 19 0
+CompilationAction 1477051426161 TestPlanetExplorer.java
+CompilationAction 1477051426161 TestPlanetExplorer.java
+RefactoringAction 1477051452313 PlanetExplorer.java ADD int getX() METHOD
+RefactoringAction 1477051452313 PlanetExplorer.java ADD void setX(int) METHOD
+RefactoringAction 1477051452314 PlanetExplorer.java ADD int getY() METHOD
+RefactoringAction 1477051452314 PlanetExplorer.java ADD void setY(int) METHOD
+RefactoringAction 1477051452314 PlanetExplorer.java ADD String getObstacles() METHOD
+RefactoringAction 1477051452314 PlanetExplorer.java ADD void setObstacles(String) METHOD
+EditAction 1477051471857 TestPlanetExplorer.java 318 2 2 1
