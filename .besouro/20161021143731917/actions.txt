@@ -114,3 +114,13 @@ EditAction 1477052136878 TestPlanetExplorer.java 822 4 10 4
 UnitTestCaseAction 1477052138522 TestPlanetExplorer.java OK
 UnitTestSessionAction 1477052138522 TestPlanetExplorer.java OK
 EditAction 1477052311293 PlanetExplorer.java 3007 16 27 0
+UnitTestCaseAction 1477052313925 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477052313925 TestPlanetExplorer.java OK
+UnitTestCaseAction 1477052321824 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477052321824 TestPlanetExplorer.java OK
+UnitTestCaseAction 1477052321975 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477052321975 TestPlanetExplorer.java OK
+RefactoringAction 1477052352697 TestPlanetExplorer.java ADD void test_executeCommand2()/2 METHOD
+RefactoringAction 1477052354211 TestPlanetExplorer.java RENAME test_executeCommand2()/2=>void test_executeCommand()/2 METHOD
+RefactoringAction 1477052355221 TestPlanetExplorer.java RENAME test_executeCommand()/2=>void test_executeCommand3() METHOD
+EditAction 1477052506584 TestPlanetExplorer.java 1136 5 16 5
