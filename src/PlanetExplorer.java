@@ -167,7 +167,7 @@ public class PlanetExplorer {
 				}
 				// obstacles
 				
-				for(int i=0 ; i<obstaclesList.size()-1 ; i++){
+				for(int i=0 ; i<obstaclesList.size() ; i++){
 					//while(obstaclesList.)
 					if(obstaclesList.get(i)==positionx && obstaclesList.get(i+1)==positiony){
 					
