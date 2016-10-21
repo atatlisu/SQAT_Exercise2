@@ -13,7 +13,7 @@ public class PlanetExplorer {
 	private int positiony;
 	private String direction;
 	
-	ArrayList obstaclesList = new ArrayList();
+	ArrayList<Integer> obstaclesList = new ArrayList<Integer>();
 	
 
 	public String getdirection() {
@@ -83,8 +83,9 @@ public class PlanetExplorer {
 		positiony = 0;
 		direction = "N";
 		if(!obstacles.isEmpty()){
-			obstaclesList.add(Integer.getInteger(	obstacles.substring(1,obstacles.indexOf(","))));
+			obstaclesList.add(Integer.getInteger(	obstacles.substring(0,obstacles.indexOf(","))));
 			obstaclesList.add(Integer.getInteger(	obstacles.substring(obstacles.indexOf(",")+1,obstacles.indexOf(")"))));
+			System.out.println(obstaclesList);
 		}
 		
 		System.out.println(obstaclesList);
