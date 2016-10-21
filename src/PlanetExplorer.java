@@ -83,12 +83,12 @@ public class PlanetExplorer {
 		positiony = 0;
 		direction = "N";
 		if(!obstacles.isEmpty()){
-			obstaclesList.add(Integer.getInteger(obstacles.substring(1,obstacles.indexOf(","))));
-			obstaclesList.add(Integer.getInteger(obstacles.substring(obstacles.indexOf(",")+1,obstacles.indexOf(")"))));
+			obstaclesList.add(Integer.parseInt(obstacles.substring(1,obstacles.indexOf(","))));
+			obstaclesList.add(Integer.parseInt(obstacles.substring(obstacles.indexOf(",")+1,obstacles.indexOf(")"))));
 			
 		}
 		
-		System.out.println(obstacles.substring(1,obstacles.indexOf(","));
+		
 	}
 
 	public PlanetExplorer(int x, int y) {
