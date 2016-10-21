@@ -10,7 +10,10 @@ public class PlanetExplorer {
 	private int actualx;
 	private int actualy;
 	private String way;
+
 	// getters and setters
+	
+	
 	public String getWay() {
 		return way;
 	}

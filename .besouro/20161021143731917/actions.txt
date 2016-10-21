@@ -124,3 +124,4 @@ RefactoringAction 1477052352697 TestPlanetExplorer.java ADD void test_executeCom
 RefactoringAction 1477052354211 TestPlanetExplorer.java RENAME test_executeCommand2()/2=>void test_executeCommand()/2 METHOD
 RefactoringAction 1477052355221 TestPlanetExplorer.java RENAME test_executeCommand()/2=>void test_executeCommand3() METHOD
 EditAction 1477052506584 TestPlanetExplorer.java 1136 5 16 5
+EditAction 1477052510215 PlanetExplorer.java 3012 16 27 0
