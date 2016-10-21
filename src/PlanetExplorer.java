@@ -88,6 +88,7 @@ public class PlanetExplorer {
 		 */
 		
 		// turning
+		for(!command.isEmpty()){
 		if(command=="r"){
 			if(direction=="N"){
 				direction="E";
@@ -132,7 +133,7 @@ public class PlanetExplorer {
 				actualx++;
 			}
 		}
-		
+		}
 		return null;
 	}
 	
