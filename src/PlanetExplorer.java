@@ -168,8 +168,6 @@ public class PlanetExplorer {
 				for(int i=0 ; i<obstaclesList.size()-2 ; i++){
 					//while(obstaclesList.)
 					if(obstaclesList.get(i).equals(positionx) && obstaclesList.get(i+1).equals(positiony)){
-						System.out.println("(" + positionx + "," + positiony + "," + direction + ")" + "(" + obstaclesList.get(i) +
-								"," + obstaclesList.get(i+1) + ")");
 					
 						return "(" + positionx + "," + positiony + "," + direction + ")" + "(" + obstaclesList.get(i) +
 								"," + obstaclesList.get(i+1) + ")";
@@ -196,7 +194,7 @@ public class PlanetExplorer {
 				command = command.substring(1);
 			
 		}
-		
+		System.out.println("(" + positionx + "," + positiony + "," + direction + ")");
 		
 		return "(" + positionx + "," + positiony + "," + direction + ")";
 	}
