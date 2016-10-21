@@ -169,7 +169,7 @@ public class PlanetExplorer {
 				
 				for(int i=0 ; i<obstaclesList.size()-1 ; i++){
 					//while(obstaclesList.)
-					if(obstaclesList.get(i).equals(positionx) && obstaclesList.get(i+1).equals(positiony)){
+					if(obstaclesList.get(i)==positionx && obstaclesList.get(i+1)==positiony){
 					
 						return "(" + positionx + "," + positiony + "," + direction + ")" + "(" + obstaclesList.get(i) +
 								"," + obstaclesList.get(i+1) + ")";
