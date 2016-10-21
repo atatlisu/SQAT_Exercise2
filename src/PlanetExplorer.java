@@ -164,7 +164,12 @@ public class PlanetExplorer {
 				}
 				// obstacles
 				
-				
+				for(int i=0 ; i<99 ; i++){
+					if(positionx==obstaclesList.elementAt(i)&&positiony==obstaclesList.elementAt(i+1)){
+						return "(" + positionx + "," + positiony + "," + direction + ")" + "(" + obstaclesList.elementAt(i) +
+								"," + obstaclesList.elementAt(i+1) + ")";
+					}
+				}
 				
 				
 				
