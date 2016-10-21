@@ -227,3 +227,19 @@ EditAction 1477055161877 TestPlanetExplorer.java 1531 8 19 8
 UnitTestCaseAction 1477055162135 TestPlanetExplorer.java OK
 UnitTestSessionAction 1477055162135 TestPlanetExplorer.java OK
 EditAction 1477055239910 TestPlanetExplorer.java 1546 8 17 7
+CompilationAction 1477055240120 TestPlanetExplorer.java
+CompilationAction 1477055240120 TestPlanetExplorer.java
+CompilationAction 1477055240120 TestPlanetExplorer.java
+CompilationAction 1477055240120 TestPlanetExplorer.java
+RefactoringAction 1477055347364 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1477055362878 PlanetExplorer.java RENAME obstacles/2=>int FIELD
+CompilationAction 1477055419460 TestPlanetExplorer.java
+CompilationAction 1477055419461 TestPlanetExplorer.java
+CompilationAction 1477055419461 TestPlanetExplorer.java
+CompilationAction 1477055419461 TestPlanetExplorer.java
+RefactoringAction 1477055514418 PlanetExplorer.java ADD Vector<String> vec FIELD
+RefactoringAction 1477055519382 PlanetExplorer.java ADD import java.util.Vector IMPORT
+RefactoringAction 1477055535948 PlanetExplorer.java REMOVE vec FIELD
+RefactoringAction 1477055540451 PlanetExplorer.java ADD Vector<String> obstaclesList/2 FIELD
+RefactoringAction 1477055542457 PlanetExplorer.java REMOVE obstaclesList/2 FIELD
+EditAction 1477056282325 PlanetExplorer.java 4320 16 29 0

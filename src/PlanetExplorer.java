@@ -1,3 +1,4 @@
+import java.util.Vector;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID:
@@ -10,8 +11,9 @@ public class PlanetExplorer {
 	private int positionx;
 	private int positiony;
 	private String direction;
-
-	// getters and setters
+	
+	Vector<Integer> obstaclesList = new Vector<Integer>(100);
+	
 
 	public String getdirection() {
 		return direction;
@@ -79,6 +81,10 @@ public class PlanetExplorer {
 		positionx = 0;
 		positiony = 0;
 		direction = "N";
+		if(!obstacles.isEmpty()){
+			obstaclesList.add(Integer.getInteger(	obstacles.substring(1,obstacles.indexOf(","))));
+			obstaclesList.add(Integer.getInteger(	obstacles.substring(obstacles.indexOf(",")+1,obstacles.indexOf(")"))));
+		}
 
 	}
 
@@ -156,6 +162,14 @@ public class PlanetExplorer {
 						positionx++;
 					}
 				}
+				// obstacles
+				
+				
+				
+				
+				
+				
+				
 				// wrapping
 				if(positionx<0){
 					positionx=x-1;
@@ -168,7 +182,7 @@ public class PlanetExplorer {
 				}else if(positiony>y){
 					positiony=1;
 				}
-			
+			    
 				command = command.substring(1);
 			
 		}
