@@ -86,7 +86,8 @@ public class PlanetExplorer {
 			obstaclesList.add(Integer.getInteger(	obstacles.substring(1,obstacles.indexOf(","))));
 			obstaclesList.add(Integer.getInteger(	obstacles.substring(obstacles.indexOf(",")+1,obstacles.indexOf(")"))));
 		}
-
+		
+		System.out.println(obstaclesList);
 	}
 
 	public PlanetExplorer(int x, int y) {
@@ -194,7 +195,6 @@ public class PlanetExplorer {
 				command = command.substring(1);
 			
 		}
-		System.out.println("(" + positionx + "," + positiony + "," + direction + ")");
 		
 		return "(" + positionx + "," + positiony + "," + direction + ")";
 	}
