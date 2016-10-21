@@ -7,8 +7,8 @@ public class PlanetExplorer {
 	private int x;
 	private int y;
 	private String obstacles;
-	private int actualx;
-	private int actualy;
+	private int positionx;
+	private int positiony;
 	private String direction;
 
 	// getters and setters
@@ -21,20 +21,20 @@ public class PlanetExplorer {
 		this.direction = direction;
 	}
 
-	public int getActualx() {
-		return actualx;
+	public int getpositionx() {
+		return positionx;
 	}
 
-	public void setActualx(int actualx) {
-		this.actualx = actualx;
+	public void setpositionx(int positionx) {
+		this.positionx = positionx;
 	}
 
-	public int getActualy() {
-		return actualy;
+	public int getpositiony() {
+		return positiony;
 	}
 
-	public void setActualy(int actualy) {
-		this.actualy = actualy;
+	public void setpositiony(int positiony) {
+		this.positiony = positiony;
 	}
 
 	public int getX() {
@@ -76,8 +76,8 @@ public class PlanetExplorer {
 		this.x = x;
 		this.y = y;
 		this.obstacles = obstacles;
-		actualx = 0;
-		actualy = 0;
+		positionx = 0;
+		positiony = 0;
 		direction = "N";
 
 	}
@@ -85,8 +85,8 @@ public class PlanetExplorer {
 	public PlanetExplorer(int x, int y) {
 		this.x = x;
 		this.y = y;
-		actualx = 0;
-		actualy = 0;
+		positionx = 0;
+		positiony = 0;
 		direction = "N";
 
 	}
@@ -137,36 +137,36 @@ public class PlanetExplorer {
 
 				if (ch=='f') {
 					if (direction == "N") {
-						actualy++;
+						positiony++;
 					} else if (direction == "E") {
-						actualx++;
+						positionx++;
 					} else if (direction == "S") {
-						actualy--;
+						positiony--;
 					} else if (direction == "W") {
-						actualx--;
+						positionx--;
 					}
 				} else if (ch=='b') {
 					if (direction == "N") {
-						actualy--;
+						positiony--;
 					} else if (direction == "E") {
-						actualx--;
+						positionx--;
 					} else if (direction == "S") {
-						actualy++;
+						positiony++;
 					} else if (direction == "W") {
-						actualx++;
+						positionx++;
 					}
 				}
 				// wrapping
-				if(actualx<0){
-					actualx=99;
-				} else if(actualx>100){
-					actualx=1;
+				if(positionx<0){
+					positionx=99;
+				} else if(positionx>100){
+					positionx=1;
 				}
 				
-				if(actualy<0){
-					actualy=99;
-				}else if(actualy>100){
-					actualy=1;
+				if(positiony<0){
+					positiony=99;
+				}else if(positiony>100){
+					positiony=1;
 				}
 			
 				command = command.substring(1);
@@ -174,12 +174,12 @@ public class PlanetExplorer {
 		}
 		
 		
-		return "(" + actualx + "," + actualy + "," + direction + ")";
+		return "(" + positionx + "," + positiony + "," + direction + ")";
 	}
 
 	public void asd() {
-		System.out.println(actualx);
-		System.out.println(actualy);
+		System.out.println(positionx);
+		System.out.println(positiony);
 		System.out.println(direction);
 	}
 }
