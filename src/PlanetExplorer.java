@@ -83,9 +83,9 @@ public class PlanetExplorer {
 		positiony = 0;
 		direction = "N";
 		if(!obstacles.isEmpty()){
-			obstaclesList.add(Integer.getInteger(	obstacles.substring(0,obstacles.indexOf(","))));
-			obstaclesList.add(Integer.getInteger(	obstacles.substring(obstacles.indexOf(",")+1,obstacles.indexOf(")"))));
-			System.out.println(obstaclesList);
+			obstaclesList.add(Integer.getInteger(obstacles.substring(1,obstacles.indexOf(","))));
+			obstaclesList.add(Integer.getInteger(obstacles.substring(obstacles.indexOf(",")+1,obstacles.indexOf(")"))));
+			
 		}
 		
 		System.out.println(obstaclesList);
