@@ -88,7 +88,7 @@ public class PlanetExplorer {
 			
 		}
 		
-		System.out.println(	obstaclesList);
+		System.out.println(obstaclesList);
 	}
 
 	public PlanetExplorer(int x, int y) {
