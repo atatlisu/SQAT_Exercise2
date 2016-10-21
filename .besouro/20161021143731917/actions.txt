@@ -1,0 +1,11 @@
+FileOpenedAction 1477049852170 PlanetExplorer.java 1270 2 1 0
+FileOpenedAction 1477049942388 PlanetExplorerException.java 61 0 0 0
+FileOpenedAction 1477049943098 TestPlanetExplorer.java 174 1 1 0
+RefactoringAction 1477050308832 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1477050318358 PlanetExplorer.java ADD int x/2 FIELD
+RefactoringAction 1477050321864 PlanetExplorer.java RENAME x/2=>int y FIELD
+RefactoringAction 1477050351435 PlanetExplorer.java REMOVE executeCommand(String) METHOD
+RefactoringAction 1477050352949 PlanetExplorer.java ADD String executeCommand(String) METHOD
+RefactoringAction 1477050459101 PlanetExplorer.java ADD vo System FIELD
+RefactoringAction 1477050463624 PlanetExplorer.java RENAME System=>void asd FIELD
+EditAction 1477050481318 PlanetExplorer.java 1377 3 4 0
