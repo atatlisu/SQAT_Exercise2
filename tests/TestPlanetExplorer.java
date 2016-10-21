@@ -19,8 +19,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_executeCommand() {
 		PlanetExplorer explorer = new PlanetExplorer(90,100);
-		explorer.executeCommand("l");
-		assertTrue(explorer.getdirection()=="W");
+		assertTrue(explorer.executeCommand("l").equals("(0,0,W)"));
 	}
 	@Test
 	public void test_executeCommand2() {
