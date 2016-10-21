@@ -109,7 +109,7 @@ public class PlanetExplorer {
 
 		// turning
 		while (!command.isEmpty()) {
-			for (int i = 0; i < command.length(); i++) {
+			
                 char ch= command.charAt(i);
 				if (ch=='r') {
 					if (direction == "N") {
@@ -155,8 +155,8 @@ public class PlanetExplorer {
 						actualx++;
 					}
 				}
-				//command = command.substring(1);
-			}
+				command = command.substring(1);
+			
 		}
 		return null;
 	}
