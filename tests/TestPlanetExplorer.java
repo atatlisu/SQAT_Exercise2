@@ -29,8 +29,8 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_executeCommand3() {
 		PlanetExplorer explorer = new PlanetExplorer(90,100);
-		explorer.setActualx(7);
-		explorer.setActualy(6);
+		explorer.setpositionx(7);
+		explorer.setpositiony(6);
 		explorer.setdirection("N");
 		assertTrue(explorer.executeCommand("f").equals("(7,7,N)"));
 	}
