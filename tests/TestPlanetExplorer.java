@@ -47,7 +47,7 @@ public class TestPlanetExplorer {
 	}
 	@Test
 	public void test_obstacles() {
-		PlanetExplorer explorer = new PlanetExplorer(100,100);
+		PlanetExplorer explorer = new PlanetExplorer(100,100,""(1,1)(4,5)"");
 		assertTrue(explorer.executeCommand("b").equals("(0,99,N)"));		
 	}
 	
