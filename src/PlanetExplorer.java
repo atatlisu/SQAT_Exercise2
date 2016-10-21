@@ -83,6 +83,8 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
+		
+		// turning
 		if(command=="r"){
 			if(way=="N"){
 				way="E";
@@ -102,6 +104,29 @@ public class PlanetExplorer {
 				way="E";
 			}else if(way=="E"){
 				way="N";
+			}
+		}
+		// moving
+		
+		if(command=="f"){
+			if(way=="N"){
+				actualy++;
+			}else if(way=="E"){
+				actualx++;
+			}else if(way=="S"){
+				actualy--;
+			}else if(way=="W"){
+				actualx--;
+			}
+		}else if(command=="b"){
+			if(way=="N"){
+				actualy--;
+			}else if(way=="E"){
+				actualx--;
+			}else if(way=="S"){
+				actualy++;
+			}else if(way=="W"){
+				actualx++;
 			}
 		}
 		
