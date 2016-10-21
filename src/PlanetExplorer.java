@@ -196,7 +196,7 @@ public class PlanetExplorer {
 				command = command.substring(1);
 			
 		}
-		
+		System.out.println("(" + positionx + "," + positiony + "," + direction + ")");
 		return "(" + positionx + "," + positiony + "," + direction + ")";
 	}
 
