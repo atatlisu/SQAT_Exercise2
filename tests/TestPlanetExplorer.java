@@ -14,7 +14,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_FirstLanding(){
 		PlanetExplorer explorer = new PlanetExplorer(90,100);
-		assertTrue(explorer.getActualx()==0 && explorer.getActualy()==0 && explorer.getdirection().equals("N"));	
+		assertTrue(explorer.executeCommand("").equals("(0,0,N)"));
 	}
 	@Test
 	public void test_executeCommand() {
