@@ -41,8 +41,7 @@ public class TestPlanetExplorer {
 	}@Test
 	public void test_Wrapping() {
 		PlanetExplorer explorer = new PlanetExplorer(100,100);
-		assertTrue(explorer.executeCommand("b").equals("(0,99,N)"));
-			
+		assertTrue(explorer.executeCommand("b").equals("(0,99,N)"));		
 	}
 	
 	
